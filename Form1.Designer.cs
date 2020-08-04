@@ -245,6 +245,7 @@
 			this.Controls.Add(this.button1);
 			this.Name = "Form1";
 			this.Text = "铭杰医疗科技有限公司";
+			this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
 			this.Load += new System.EventHandler(this.Form1_Load);
 			this.tableLayoutPanel1.ResumeLayout(false);
 			this.ResumeLayout(false);

@@ -8,6 +8,7 @@ using System.Text;
 using System.Windows.Forms;
 using NgiInterface;
 using HZH_Controls.Forms;
+using HZH_Controls;
 
 namespace MJ_NGI
 {
@@ -24,6 +25,18 @@ namespace MJ_NGI
 
 		private string ch = "0";
 		public string CH { get { return ch; } set { ch = value; } }
+
+		public float V
+		{
+			get { return ucTrackV.Value; }
+			set { ucNumV.Num = value.ToDecimal(); }
+		}
+		public float I
+		{
+			get { return ucTrackI.Value; }
+			set { ucNumI.Num = value.ToDecimal(); }
+		}
+
 
 		public bool Open(string ip, string ch)
 		{
@@ -96,7 +109,7 @@ namespace MJ_NGI
 		Timer timer1 = new Timer();
 		private void UC_Load(object sender, EventArgs e)
 		{
-			NGIDevice.DeviceLoad();		
+			NGIDevice.DeviceLoad();
 		}
 
 		public void timer1EventProcessor(object source, EventArgs e)

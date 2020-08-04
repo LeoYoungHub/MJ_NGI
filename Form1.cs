@@ -1,4 +1,5 @@
-﻿using NgiInterface;
+﻿using HZH_Controls;
+using NgiInterface;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -75,7 +76,13 @@ namespace MJ_NGI
 
 					UC uC = new UC();
 					uC.Open(ip, ch);
+					string vi = ConfigManager.GetConfig(ch);
 					devices.Add(ch, uC);
+					if (!string.IsNullOrEmpty(vi))
+					{
+						uC.V = Convert.ToSingle(vi.Split('|')[0]);
+						uC.I = Convert.ToSingle(vi.Split('|')[1]);
+					}
 				}
 
 				foreach (var item in devices)
@@ -153,10 +160,6 @@ namespace MJ_NGI
 
 		}
 
-
-
-
-
 		private void Button9_Click(object sender, EventArgs e)
 		{
 			MessageBox.Show(ReadValue(44).ToString());
@@ -186,6 +189,14 @@ namespace MJ_NGI
 		private void Button8_Click(object sender, EventArgs e)
 		{
 			MessageBox.Show(ReadIntValue(0).ToString());
+		}
+
+		private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+		{
+			foreach (var item in devices)
+			{
+				ConfigManager.SetConfig(item.Key, $"{item.Value.V}|{item.Value.I}");
+			}
 		}
 	}
 }
