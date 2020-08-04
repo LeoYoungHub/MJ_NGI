@@ -79,3 +79,4 @@ E:\code\电源管理代码\GitCode\MJ_NGI\obj\Debug\MJ_NGI.csproj.CoreCompileInp
 E:\code\电源管理代码\GitCode\MJ_NGI\obj\Debug\MJ_NGI.csproj.CopyComplete
 E:\code\电源管理代码\GitCode\MJ_NGI\obj\Debug\MJ_NGI.exe
 E:\code\电源管理代码\GitCode\MJ_NGI\obj\Debug\MJ_NGI.pdb
+E:\code\电源管理代码\GitCode\MJ_NGI\obj\Debug\MJ_NGI.csprojAssemblyReference.cache

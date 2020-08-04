@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ROOT>
+	<Head>
+		<ItemCount>4</ItemCount>
+		<TargetPort>7000</TargetPort>
+		<MainBoardMaxID>32</MainBoardMaxID>
+		<MainBoardStartID>0</MainBoardStartID>
+		<DefaultTimeout>50</DefaultTimeout>
+		<selectip/>
+		<selectid>0</selectid>
+		<okbutton>0</okbutton>
+	</Head>
+	<Items>
+		<Item0>
+			<SystemID>0</SystemID>
+			<LanIP>192.168.2.222</LanIP>
+			<ComName/>
+			<Version>#N8330D_H1.000_S1.001D#</Version>
+			<LB>H1.000</LB>
+			<MAC>33-32-20-19-0F-43</MAC>
+			<NetMask>255.255.255.0</NetMask>
+			<NetGate>192.168.0.1</NetGate>
+			<CompileTime>Dec  6 2017</CompileTime>
+			<LocalPCName>Realtek PCIe GBE Family Controller:172.31.1.155;192.168.2.158;</LocalPCName>
+			<CPUID>31-2D-E1-05-4E-46-33-32-20-19-0F-43-8A</CPUID>
+		</Item0>
+		<Item1>
+			<SystemID>1</SystemID>
+			<LanIP>192.168.2.223</LanIP>
+			<ComName/>
+			<Version>#N8330D_H1.000_S1.001D#</Version>
+			<LB>H1.000</LB>
+			<MAC>33-32-3D-16-0F-43</MAC>
+			<NetMask>255.255.255.0</NetMask>
+			<NetGate>192.168.0.1</NetGate>
+			<CompileTime>Dec  6 2017</CompileTime>
+			<LocalPCName>Realtek PCIe GBE Family Controller:172.31.1.155;192.168.2.158;</LocalPCName>
+			<CPUID>31-2D-E5-05-4E-46-33-32-3D-16-0F-43-A9</CPUID>
+		</Item1>
+		<Item2>
+			<SystemID>2</SystemID>
+			<LanIP>192.168.2.224</LanIP>
+			<ComName/>
+			<Version>#N8330D_H1.000_S1.001D#</Version>
+			<LB>H1.000</LB>
+			<MAC>33-32-3B-17-0F-43</MAC>
+			<NetMask>255.255.255.0</NetMask>
+			<NetGate>192.168.0.1</NetGate>
+			<CompileTime>Dec  6 2017</CompileTime>
+			<LocalPCName>Realtek PCIe GBE Family Controller:172.31.1.155;192.168.2.158;</LocalPCName>
+			<CPUID>31-2D-DD-05-4E-46-33-32-3B-17-0F-43-A1</CPUID>
+		</Item2>
+		<Item3>
+			<SystemID>3</SystemID>
+			<LanIP>192.168.2.225</LanIP>
+			<ComName/>
+			<Version>#N8330D_H1.000_S1.001D#</Version>
+			<LB>H1.000</LB>
+			<MAC>33-32-20-17-0F-43</MAC>
+			<NetMask>255.255.255.0</NetMask>
+			<NetGate>192.168.0.1</NetGate>
+			<CompileTime>Dec  6 2017</CompileTime>
+			<LocalPCName>Realtek PCIe GBE Family Controller:172.31.1.155;192.168.2.158;</LocalPCName>
+			<CPUID>31-2D-DE-05-4E-46-33-32-20-17-0F-43-88</CPUID>
+		</Item3>
+	</Items>
+</ROOT>
